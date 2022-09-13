@@ -1,0 +1,191 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: 'rational';
+  font-style: lighter;
+  font-weight: 200;
+  src:  url('/fonts/rational/ReneBiederRatioalDisplayLight.otf') ;
+}
+@font-face {
+  font-family: 'rational';
+  font-style: normal;
+  font-weight: 500;
+  src:  url('/fonts/rational/ReneBiederRationalDisplaySemiBold.otf') ;
+}
+@font-face {
+  font-family: 'rational';
+  font-style: normal;
+  font-weight: 700;
+  src:  url('/fonts/rational/ReneBiederRationalDisplaySemiBold.otf') ;
+}
+
+/* MiLONARY */
+@font-face {
+  font-family: 'millionaire';
+  font-style: normal;
+  font-weight: 400;
+  src:  url('/fonts/millionaire/MillionaireRoman.otf') ;
+}
+
+@font-face {
+  font-family: 'millionaire';
+  font-weight: 400;
+  src:  url('/fonts/millionaire/MillionaireItalic.otf') ;
+}
+@font-face {
+  font-family: 'millionaire';
+  font-style: normal;
+  font-weight: 400;
+  src:  url('/fonts/millionaire/MillionaireScript.otf') ;
+}
+
+
+/* BOLTICK */
+@font-face {
+  font-family: 'bolkit';
+  font-style: normal;
+  font-weight: 400;
+  src:  url('/fonts/bolkit/Bolkit.ttf') ;
+}
+@font-face {
+  font-family: 'bolkit';
+  font-style: normal;
+  font-weight: bold;
+  src:  url('/fonts/bolkit/BolkitBold.ttf') ;
+}
+/* BOLTICK */
+@font-face {
+  font-family: 'interFont';
+  font-style: normal;
+  font-weight: 400;
+  src:  url('/fonts/interFont.ttf');
+}
+
+
+
+
+
+
+/* GLOBAL STYLES */
+@layer base {
+  html {
+    font-family: rational, system-ui, sans-serif;
+  }
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  @apply text-dark;
+  @apply bg-primary-accent;
+}
+
+a {
+  color: inherit;
+  outline: none;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.swiper-pagination-bullet{
+  width: .6rem !important;
+  height: .6rem !important;
+  background-color: #C4C0B5 !important;
+}
+.swiper-pagination-bullet-active{
+  background-color: #FCB901 !important;
+}
+@media (max-width:768px) { 
+
+  .grey-bullet .swiper-pagination-bullet{
+    background-color: #C4C0B5 !important;
+  }
+  .grey-bullet .swiper-pagination-bullet-active{
+    background-color: #5C6052 !important;
+  }
+
+ }
+
+.swiper{
+  height: 270px;
+}
+
+.eventSection .swiper{
+  height: 620px;
+}
+
+.highLight-video-box .swiper{
+  height: 450px;
+}
+
+.circle-path{
+  clip-path: circle(50% at 50% 50%);
+}
+.circle-path-open{
+  clip-path: circle(100% at 50% 50%);
+}
+
+.main-section .swiper {
+  width: 240px;
+  height: 320px;
+}
+
+.main-section .swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.main-section .swiper-slide:nth-child(1n) {
+  background-color: #c4c0b5;
+}
+
+.main-section .swiper-slide:nth-child(2n) {
+  background-color: #9d9b98;
+}
+
+.main-section .swiper-slide:nth-child(3n) {
+  background-color: #c4c0b5;
+}
+
+.main-section .swiper-slide:nth-child(4n) {
+  background-color: #9d9b98;
+}
+
+.main-section .swiper-slide:nth-child(5n) {
+  background-color: #c4c0b5;
+}
+
+.main-section .swiper-slide:nth-child(6n) {
+  background-color: #9d9b98;
+}
+
+.main-section .swiper-slide:nth-child(7n) {
+  background-color: #c4c0b5;
+}
+
+.main-section .swiper-slide:nth-child(8n) {
+  background-color: #9d9b98;
+}
+
+.main-section .swiper-slide:nth-child(9n) {
+  background-color: #c4c0b5;
+}
+
+.main-section .swiper-slide:nth-child(10n) {
+  background-color: #9d9b98;
+}
+
+
